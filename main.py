@@ -77,8 +77,8 @@ def reddit_login(username, password):
 
 def main():
     # Replace 'YOUR_REDDIT_USERNAME' and 'YOUR_REDDIT_PASSWORD' with your login credentials
-    username = 'Swinne61377'
-    password = 'Kthenurse.123'
+    username = ''
+    password = ''
 
     session = reddit_login(username, password)
     print(session)
